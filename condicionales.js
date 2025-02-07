@@ -41,8 +41,9 @@ if (creditos >= 10 && promedio >= 8.5){
 
 //  Problema Clase 2: Evaluador de Notas con Mensajes Personalizados
 
-let nota = 75;
+let nota = 0;
 
+if(nota >= 0){
 if (nota >= 90){
     console.log("Exelente");
 }else if (nota >= 75 && nota <= 89){
@@ -51,4 +52,7 @@ if (nota >= 90){
     console.log("Suficiente"); 
 }else{
     console.log("No aprueba!!!")
+}
+}else{
+    console.log("Ingrese una nota de 0 a 100")
 }
