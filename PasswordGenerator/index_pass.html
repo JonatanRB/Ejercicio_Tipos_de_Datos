@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <script src="script_pass.js"></script>
+    <link rel="stylesheet" href="styles_pass.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+<body>
+    
+    <h1>Password Generator</h1>
+
+    <main>
+
+        <div id="box-password">
+            <input type="text" id="texto" disabled>
+            <button onclick="copy()" id="copy"><box-icon name='copy-alt' color='#5deadc' ></box-icon></button>
+        </div>
+
+        <div id="box-content">
+
+            <div id="barra-rango">
+                <label for="longitud">Longitud:</label>
+                <span id="valor-longitud">10</span>
+            </div>
+
+            <div id="range-container">
+            <input type="range" id="lengt" min="4" max="20" value="10">
+            </div>
+
+            <div id="opciones">
+                <label>
+                    <input type="checkbox" id="mayusculas" checked>
+                    <span>Incluye letras Mayusculas</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="minusculas" checked>
+                    <span>Incluye letras Minusculas</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="numeros" checked>
+                    <span>Incluye letras Numeros</span>
+                </label>
+
+                <label>
+                    <input type="checkbox" id="simbolos" checked>
+                    <span>Incluye letras Simbolos</span>
+                </label>
+            </div>
+
+            
+            <div id="strong">
+                <p id="seguridad"></p>
+            </div>
+            
+
+            <div id="btnContainer">
+            <button id="generar">Generar <box-icon name='message-square-edit' ></box-icon></button>
+            </div>
+    </div>
+    </main>
+
+</body>
+</html>
