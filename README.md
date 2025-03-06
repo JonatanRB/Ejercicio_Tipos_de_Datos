@@ -83,7 +83,28 @@ Este repositorio contiene una serie de archivos que ilustran el uso de diversos 
 - Estructura HTML básica.
 - Integración de archivos **JavaScript** (`<script>`).
 - Uso de etiquetas semánticas.
+# 📝 Caja de Comentarios
 
+Este proyecto implementa una **caja de comentarios** interactiva utilizando **JavaScript**, **HTML** y **CSS**. Permite a los usuarios agregar, visualizar y eliminar comentarios en tiempo real, proporcionando una interfaz sencilla y funcional.
+
+---
+
+## 🚀 Funcionalidades
+
+✔️ **Agregar Comentarios:** Los usuarios pueden escribir y agregar comentarios que se mostrarán en una lista.  
+✔️ **Eliminar Comentarios:** Cada comentario tiene una opción para ser eliminado de la lista.  
+✔️ **Interfaz Dinámica:** Uso de JavaScript para manipular el DOM y actualizar los comentarios sin recargar la página.  
+
+---
+
+## 📂 Estructura de Archivos
+
+📄 **`index.html`** → Contiene la estructura principal de la página, incluyendo el formulario para ingresar comentarios y la lista donde se mostrarán.  
+🎨 **`styles.css`** → Define los estilos visuales para la caja de comentarios.  
+⚙️ **`script.js`** → Implementa la lógica para agregar y eliminar comentarios de manera interactiva.  
+
+---
+![image](https://github.com/user-attachments/assets/6ad05728-dba4-4bd6-bbeb-6ba9e381eb98)
 ---
 ## 👤 Autor  
 **Nombre:** Jonatan Rea Barbosa  
