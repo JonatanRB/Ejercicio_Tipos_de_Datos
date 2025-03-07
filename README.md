@@ -104,7 +104,42 @@ Este proyecto implementa una **caja de comentarios** interactiva utilizando **Ja
 ⚙️ **`script.js`** → Implementa la lógica para agregar y eliminar comentarios de manera interactiva.  
 
 ---
+## 🖼️ Vista Previa
 ![image](https://github.com/user-attachments/assets/6ad05728-dba4-4bd6-bbeb-6ba9e381eb98)
+---
+# 🔒 Generador de Contraseñas
+
+Este proyecto implementa un **Generador de Contraseñas** utilizando **JavaScript**, **HTML** y **CSS**. Permite a los usuarios generar contraseñas seguras basadas en criterios personalizados, como longitud y tipos de caracteres.
+
+---
+
+## 🚀 Funcionalidades
+
+✔️ **Generar Contraseña:** Los usuarios pueden generar una contraseña aleatoria basada en los criterios seleccionados.  
+✔️ **Criterios Personalizables:** Opciones para incluir letras mayúsculas, minúsculas, números y caracteres especiales.  
+✔️ **Longitud de Contraseña:** Permite especificar la longitud deseada de la contraseña.  
+✔️ **Copia al Portapapeles:** Funcionalidad para copiar la contraseña generada al portapapeles con un solo clic.  
+
+---
+## 🖼️ Vista Previa
+![image](https://github.com/user-attachments/assets/669fe0c2-7767-4566-9ef5-6c547c266420)
+---
+# 📝 Caja de Comentarios Mejorado
+
+Este proyecto implementa una **caja de comentarios** interactiva utilizando **JavaScript**, **HTML** y **CSS**. Permite a los usuarios agregar, visualizar y eliminar comentarios en tiempo real, proporcionando una interfaz sencilla y funcional.
+
+---
+
+## 🚀 Funcionalidades
+
+✔️ **Agregar Comentarios:** Los usuarios pueden escribir y agregar comentarios que se mostrarán en una lista.  
+✔️ **Eliminar Comentarios:** Cada comentario tiene una opción para ser eliminado de la lista.  
+✔️ **Interfaz Dinámica:** Uso de JavaScript para manipular el DOM y actualizar los comentarios sin recargar la página.  
+
+---
+
+## 🖼️ Vista Previa
+![image](https://github.com/user-attachments/assets/0e716e4f-1885-49ff-aa59-0bec05e86ab5)
 ---
 ## 👤 Autor  
 **Nombre:** Jonatan Rea Barbosa  
